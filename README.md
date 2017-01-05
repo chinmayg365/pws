@@ -1,2 +1,2 @@
 # pws
-webscanner
+website scanner

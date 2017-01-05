@@ -1,0 +1,12 @@
+import os
+
+
+def create_directory(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+
+def write_file(path ,data):
+    fr=open(path,'w')
+    fr.write(data)
+    fr.close()
